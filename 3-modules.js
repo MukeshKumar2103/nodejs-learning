@@ -6,12 +6,10 @@ const sayHello = require('./5-utils');
 const data = require('./6-alternative-flavor');
 require('./7-mind-grenade')
 
-
-// const { kumar, peter } = names;
+const { kumar, peter } = names;
 
 // console.log({module,exports:module.exports});
 
-
-// sayHello('Mukesh');
-// sayHello(kumar);
-// sayHello(peter);
+sayHello('Mukesh');
+sayHello(kumar);
+sayHello(peter);
